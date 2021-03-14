@@ -1,0 +1,14 @@
+﻿<Window x:Class="DBManager.SplashInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DBManager"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Title="" Height="55.913" Width="386.302">
+    
+    <TextBox x:Name="TextToShow" BorderBrush="White" HorizontalAlignment="Center" Height="auto" Width="auto" TextWrapping="Wrap" Text="Data is loading, wait !" VerticalAlignment="Stretch" FontSize="30" TextAlignment="Center"/>
+
+</Window>
